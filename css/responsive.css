@@ -31,6 +31,9 @@
   header .bottomRow .navbar #mainNav .nav li a {
     padding: 0 8px;
   }
+  header .bottomRow .navbar-brand img{
+    width: 200px;
+  }
 }
 @media (max-width: 767px) {
   header .topRow {
