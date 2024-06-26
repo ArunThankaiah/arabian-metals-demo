@@ -956,68 +956,31 @@ footer p i {
 #testimonial {
   background: url('../images/testimonial/testimonail.jpg') no-repeat scroll center 0 #3c85e8;
 }
-.testimonialSlide {
-  background: none;
-  border: none;
-}
-.testimonialSlide .slides .testimonial {
-  text-align: center;
-}
-.testimonialSlide .slides .testimonial .testimonialText {
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
+#testimonial p{
   color: #fff;
-  line-height: 24px;
   font-style: italic;
-  max-width: 630px;
-  margin: 0 auto 40px;
-  position: relative;
+  font-size: 14px;
 }
-.testimonialSlide .slides .testimonial .testimonialText:before,
-.testimonialSlide .slides .testimonial .testimonialText:after {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-  position: absolute;
-  top: 20px;
-  color: rgba(48, 48, 48, 0.15);
-  font-size: 48px;
+.testimonial-content{
+  margin-bottom: 50px;
 }
-.testimonialSlide .slides .testimonial .testimonialText:before {
-  content: "\f10d";
-  left: -145px;
-}
-.testimonialSlide .slides .testimonial .testimonialText:after {
-  content: "\f10e";
-  right: -145px;
-}
-.testimonialSlide .slides .testimonial .clientPhoto {
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  margin: 20px auto;
-}
-.testimonialSlide .slides .testimonial .clientPhoto img {
-  border-radius: 100%;
-  width: 100%;
-}
-.testimonialSlide .slides .testimonial h5 {
-  font-family: 'Montserrat', sans-serif;
+.testimonial-content p{
+  width: 50%;
+  letter-spacing: 1px;
+  margin: auto;
   color: #fff;
-  margin-top: 5px;
-  line-height: 1.2;
+
 }
-.testimonialSlide .slides .testimonial h5 span {
-  font-family: 'Lato', sans-serif;
+.testimonial-content h3{
   color: #fff;
-  display: block;
   font-style: italic;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 776px){
+  .testimonial-content p{
+    width: 80%;
+
+  }
 }
 /*----------------------------------------------------------------*/
 /*----------------------------------------------------------------*/
@@ -1166,6 +1129,8 @@ footer p i {
   display: inline-block;
   float: right;
   margin: 0;
+  font-size: 12px;
+  font-weight: 400;
 }
 #services_single .container .tab_menu .nav-tabs li.active {
   margin: 0;
@@ -1173,6 +1138,7 @@ footer p i {
 #services_single .container .tab_menu .nav-tabs li.active a {
   color: #3c85e8;
   background: #fff;
+  font-size: 14px;
 }
 #services_single .container .tab_contents {
   padding-top: 100px;
@@ -1887,7 +1853,7 @@ swiper-container {
 swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1946,4 +1912,5 @@ swiper-container  .text-banner a{
 
   
 }
+
 /*----------------------------------------------------------------*/
